@@ -832,6 +832,17 @@ section {
 .ribbon.primary{ border-color: #F1002A; border-right-color:  transparent; }
 .ribbon.secondary{ border-color: #1F8330; border-right-color:  transparent;  }
 .ribbon.white{ border-color: #ffffff; border-right-color:  transparent;  }
+.ribbon.hot{ border-color: yellow; border-right-color:  transparent;  }
+
+#grad1 {
+        background: red;
+        background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+        background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+        background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+        background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 
 
 .circle-50 { height: 50px; width: 50px; border-radius: 50px; }
@@ -1498,9 +1509,9 @@ ul.selecton li a.active{ border-radius: 3px 3px 0 0; background: #EF0031; color:
 
 /*FOOTER*/
 
-footer{ background: url("../images/footer_1600x800.jpg") no-repeat; background-size: cover;  position: relative;  text-align: center;z-index: 1;  font-size: 1.3em; }
+footer{ background: url("../images/footer_1600x800.png") no-repeat; background-size: cover;  position: relative;  text-align: center;z-index: 1;  font-size: 1.3em; }
 
-.footer-bg-1{ background-image:  url("../images/footer-1.png") ; }
+.footer-bg-1{ background-image:  url("../images/footer_1600x800.png") ; }
 .footer-bg-1:after{ display: none; }
 
 footer,
@@ -7369,3 +7380,62 @@ color: withe;
 div.c {
 line-height: 140%;
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      
+      /* Modal Content */
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+      }
+      
+      /* The Close Button */
+      .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
