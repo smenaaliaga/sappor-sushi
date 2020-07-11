@@ -997,13 +997,13 @@ section {
 
 .btn-brdr-primary { text-align: center; height: 45px; line-height: 43px; border: 1px solid #EF0031; color: #EF0031; border-radius: 2px; }
 
-.btn-brdr-primary:hover { background: #EF0031; color: #FFFFFF; }
+.btn-brdr-primary:hover { background: #EF0031; color: #EF0031; }
 
 .btn-primaryc { position: relative; text-align: center; height: 55px; line-height: 50px; background: #EF0031; color: #fff; border-radius: 3px; z-index: 1; }
 
-.btn-primaryc.secondary{ background: #118522; }
+.btn-primaryc.secondary{ background: #000000; }
 
-.btn-primaryc:after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px; background: #1F8330; z-index: -2; -webkit-transition: all .1s ease-in;
+.btn-primaryc:after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px; background: #000000; z-index: -2; -webkit-transition: all .1s ease-in;
         transition: all .1s .1s ease-in; }
 
 .btn-primaryc:before { content: ''; position: absolute; bottom: 3px; left: 0; right: 0; height: 2px; background: #FFFFFF; z-index: -1;
@@ -7439,3 +7439,7 @@ line-height: 140%;
         text-decoration: none;
         cursor: pointer;
       }
+
+      iframe {
+        max-width: 100%;
+    }

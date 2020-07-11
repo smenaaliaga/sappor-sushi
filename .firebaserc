@@ -1,6 +1,7 @@
 {
   "projects": {
     "default": "sapporosushi",
-    "sapporo": "sapporosushi"
+    "sapporo": "sapporosushi",
+    "sapporosushi": "sapporosushi"
   }
 }
